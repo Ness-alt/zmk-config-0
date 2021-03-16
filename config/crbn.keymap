@@ -51,7 +51,7 @@
 		control {
 			bindings = <
 				&reset &bootloader &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans &trans &trans &trans &trans &trans &trans
-				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+				&trans &trans &trans &trans &trans &trans &trans &trans &trans &out OUT_BLE &out OUT_USB &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 			>;
@@ -60,7 +60,7 @@
     arrow {
       bindings = <
         &trans &trans   &kp UP   &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &trans &trans
+        &trans &kp LEFT &kp DOWN &kp RIGHT &out OUT_TOG &trans &trans &trans &trans &trans &trans &trans
         &trans &trans   &trans   &trans &trans &trans &trans &trans &trans &trans &trans &trans
         &trans &trans   &trans   &trans &trans &trans &trans &trans &trans &trans &trans &trans
       >;

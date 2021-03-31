@@ -51,7 +51,7 @@
 		control {
 			bindings = <
 				&reset &bootloader &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans &trans &trans &trans &trans &trans &trans
-				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &mo 5 &trans
+				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 			>;
@@ -66,14 +66,7 @@
       >;
     };
 
-    plover {
-      bindings = <
-        &trans &trans   &trans       &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans   &trans       &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans   &trans       &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans   &trans       &trans &trans &trans &trans &trans &trans &trans &trans &trans
-      >;
-    };
+
 
 	};
 };

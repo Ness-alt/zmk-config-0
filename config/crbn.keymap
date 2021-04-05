@@ -82,10 +82,10 @@
 
     aarons {
       bindings = <
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &kp S  &kp T  &kp P  &kp H  &kp STAR &kp STAR &kp F  &kp P  &kp L  &kp T  &kp D
-        &trans &kp S  &kp K  &kp W  &kp R  &kp STAR &kp STAR &kp R  &kp B  &kp G  &kp S  &kp Z
-        &trans &trans &trans &kp A  &kp O  &trans &trans &kp E  &kp U  &trans &trans &trans
+        &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        &kp ESC &kp S  &kp T  &kp P  &kp H  &kp STAR &kp STAR &kp F  &kp P  &kp L  &kp T  &kp D
+        &none   &kp S  &kp K  &kp W  &kp R  &kp STAR &kp STAR &kp R  &kp B  &kp G  &kp S  &kp Z
+        &none   &none &none &kp A  &kp O  &none &none &kp E  &kp U  &none &none &none
       >;
     };
 
